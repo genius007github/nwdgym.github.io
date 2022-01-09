@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>khan fitness</title>
+</head>
+<style>
+  /*css reset*/
+ body{
+  margin:0px;
+  padding: 0px;
+  background: url('pc/gym.jpg');
+  height: 500px;
+  width: 1000px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+ }
+ .left{
+   /* border: 2px solid blue;*/
+display:inline-block;
+top:20px;
+left:34px;
+position:absolute;
+
+
+ }
+ .left img{
+   width:124px;
+   filter:invert(100%)
+ }
+ .mid{
+   display:block;
+   width:50%;
+   margin:20px auto;
+   
+ /*border:2px solid red*/
+ }
+ .left div{
+   text-align: center;
+   justify-content: center;
+   color: indigo;
+   line-height: 10spx;
+   font-size: 20px;
+ }
+ .right{
+   display:inline-block;
+/*border:2px solid green;*/
+position: absolute;
+right:34px;
+top:20px;
+ }
+ .navbar{
+   display:inline-block;
+ }
+ .navbar li{
+   display:inline-block;
+   font-size: 15px;
+ }
+ .navbar li a{
+   color:yellowgreen;
+   text-decoration: none;
+   padding:34px 23px;
+   
+ }
+ .navbar li a:hover, .navbar li a.active{
+   text-decoration: underline;
+   color:purple;
+ }
+ .btn{
+   font-family: baloo bhai  cursive;
+   background-color: tomato;
+   color: sandybrown;
+   border-radius: 11px;
+   margin: 0 9px;
+   padding: 4px 14px;
+   border: 2px solid green;
+   font-size: 14px;
+   cursor: pointer;
+ }
+ .btn:hover{
+   background-color: skyblue;
+ }
+ .container h1{
+   padding: 2px;
+   color: chartreuse;
+   text-align: center;
+ }
+ .container{
+   border:2px solid darkred;
+   margin: 120px 169px;
+   padding: 45px;
+   border-radius: 15px;
+
+ }
+ .form-group input{
+   margin: 8px;
+   padding: 7px;
+   color: brown;
+   background-color:darkgreen;
+   display: block;
+   border-radius: 2px;
+   font-family: Arial, Helvetica, sans-serif;
+   width:33%;
+   text-align: center;
+   border: 2px solid black;
+   border-radius: 3px;
+   justify-content: center;
+ }
+ .container button{
+   display: block;
+   width: 33%;
+   margin: 2px;
+ }
+</style>
+<body>
+  <header class="header">
+    <!--left box for logo-->
+    <div class="left">
+    <img src="pc/logo.png" alt="">
+    <div><strong>khan fitness</strong></div>
+    </div>
+    <!--miid box for nav bar-->
+    <div class="mid">
+      <ul class="navbar">
+        <li><a href="#" class=active>home</a></li> 
+      <li><a href="#">fittnes tips</a></li>
+       <li><a href="#">suggestion</a></li> 
+       <li><a href="#">contact us</a></li> 
+      </ul>
+    </div>
+    <!--right box for button-->
+    <div class="right">
+<button class="btn">sign up</button>
+
+<button class="btn">log in</button>
+    </div>
+  </header>
+  <div class="container">
+    <h1>welcome to best gym of nawada</h1>
+    <form action="no action.php">
+     <div class="form-group">
+      <input type="text" name="" placeholder="ENTER YOURNAME">
+    </div>
+      <div class="form-group">
+        <input type="text" name="" placeholder="ENTER EMAIL ID">
+      </div>
+      <div class="form-group">
+        <input type="NUMBER" name="" placeholder="ENTER CONTACT NUMBER">
+      </div>
+      <div class="form-group">
+        <input type="date" name="age" placeholder="ENTER YOUR AGE" > 
+      </div>
+       <button class="btn">submit now</button>
+       <button class="btn">reset now</button>
+    </form>
+  </div>
+  <a href="https//facebook.com">go to facebook</a>
+</body>
+</html>
